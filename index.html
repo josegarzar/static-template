@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Template</title>
-  </head>
-  <body>
-    <h1>This is a static template, there is no bundler or bundling involved!</h1>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Static Template</title>
+</head>
+
+<body>
+	<h1 class="text-center">Challenge</h1>
+	<div class="calculate text-center">
+		<button id="calculateButton" type="button" class="btn btn-outline-primary circle mt-4" onclick="grains()">Total grains</button>
+  	</div>
+  	
+  	<div>	
+		  <li class="calculus">
+			  <ul class="total"></ul>
+		  </li>
+  	</div>
+
+</body>
+
+<script src="Grains.js"></script>
+
+
 </html>
